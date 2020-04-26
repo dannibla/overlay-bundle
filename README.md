@@ -1,4 +1,3 @@
-# [Gaming Overlay for Streamers](https://www.dannibla.com/overlay-bundle/)
 Gaming Stream Overlay for Streamers, with amazing elements for Twitch, Facebook and Youtube Gaming – Stream Overlay, Twitch Panels, Alerts: New Donation, New Follower, New Subscriber
 
 1.Antored - [Download Link](https://www.dannibla.com/overlay-bundle/Antored.zip)
