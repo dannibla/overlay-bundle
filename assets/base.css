@@ -140,7 +140,7 @@ section,
 summary {
 	display: block
 }
-
+/*
 @font-face {
 	font-family: "SQMarket";
 	src: url("/fonts/sqmarket-bold.eot");
@@ -236,7 +236,7 @@ summary {
 	font-weight: normal;
 	font-style: italic
 }
-
+*/
 .directory-icons-sprite,
 .logo:after,
 .logo h1,
@@ -258,9 +258,9 @@ summary {
 .icon-mobile-merchant,
 .icon-left-arrow,
 .icon-right-arrow {
-	background: url(/assets/sprites/directory-icons-sprite.png) no-repeat
+	background: url(logo.png) no-repeat
 }
-
+/*
 .profile-icons-sprite,
 .icon-twitter,
 .icon-facebook,
@@ -275,7 +275,7 @@ summary {
 .profile-image-dot.current {
 	background: url(/assets/sprites/profile-icons-sprite.png) no-repeat
 }
-
+*/
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -493,7 +493,7 @@ p {
 	height: 40px;
 	width: 40px
 }
-
+/*
 .icon-gplus {
 	background: url('/images/gplus.png') no-repeat;
 	height: 40px;
@@ -501,7 +501,7 @@ p {
 	display: inline-block;
 	vertical-align: middle;
 }
-
+*/
 .profile {
 	font-size: .875em;
 	line-height: 1.42857em
@@ -1048,7 +1048,7 @@ p {
 }
 
 .menu-item-image.image-error:before {
-	background: #f2f2f2 url(/assets/public/broken-image.png) center 51% no-repeat;
+	background: #f2f2f2;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	-ms-border-radius: 0;
@@ -1410,6 +1410,7 @@ p {
 		position: relative;
 		left: 0
 	}
+	/*
 	.profile-image-dot:hover,
 	.profile-image-dot:focus,
 	.profile-image-dot.current {
@@ -1419,6 +1420,7 @@ p {
 		height: 9px;
 		width: 9px
 	}
+	*/
 	.profile-description {
 		padding-top: 1.28571em;
 		padding-bottom: .67857em
@@ -1695,6 +1697,7 @@ p {
 	.profile-image-pagination {
 		display: none
 	}
+	/*
 	.profile-image-dots {
 		margin-top: -0.85714em;
 		margin-bottom: .07143em;
@@ -1712,6 +1715,7 @@ p {
 		height: 9px;
 		width: 9px
 	}
+	*/
 	.profile-description {
 		padding-top: 1.28571em;
 		padding-bottom: .67857em
@@ -2857,6 +2861,17 @@ screen and (min-width:64em) and (max-height:68.6875em) {
 
 @media screen and (-webkit-min-device-pixel-ratio:1.5),
 screen and (min-resolution:144dpi) {
+	.icon-square-footer {
+		background: url(logo.png) no-repeat;
+		background-position: 0 -176px;
+		background-size: 84px auto;
+		height: 22px;
+		width: 22px
+	}
+}
+/*
+@media screen and (-webkit-min-device-pixel-ratio:1.5),
+screen and (min-resolution:144dpi) {
 	.logo:after {
 		background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
 		background-position: 0 0;
@@ -2945,3 +2960,4 @@ screen and (min-resolution:144dpi) {
 		width: 8px
 	}
 }
+*/
